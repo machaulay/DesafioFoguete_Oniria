@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
+
+    //Nesse script uso um modelo de maquina de estado, bem simples que venho usando nos ultimos projetos
+    //sempre adaptando para a necessidade
+    //podendo optar por usar um contador no inicio, e tambem utilizar quantos estados forem necessarios
+    //podendo ser trocas por qualquer script.
+
     public GameObject plataforma;
     public GameObject[] points;
     private GameStates state = GameStates.WAIT_TO_START;
@@ -94,6 +100,9 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene(cena);
     }
 
+
+    //Aqui fiz uma função para trocar a plataforma de lugar,
+    //tentando dar um "desafio" basico para o teste do foguete.
     private IEnumerator TrocaPlataforma()
     {
         yield return new WaitForSeconds(5.0f);
