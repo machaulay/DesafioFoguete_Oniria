@@ -68,29 +68,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11542}
+      Script: {instanceID: 11568}
     - Class: 114
-      Script: {instanceID: 11586}
+      Script: {instanceID: 11612}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 12080}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12180}
     - Class: 114
-      Script: {instanceID: 13278}
+      Script: {instanceID: 12200}
     - Class: 114
-      Script: {instanceID: 13676}
+      Script: {instanceID: 13306}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 13792}
+      Script: {instanceID: 13776}
     - Class: 114
-      Script: {instanceID: 40640}
+      Script: {instanceID: 13820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,31 +143,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11364}
     - Class: 114
-      Script: {instanceID: 11540}
+      Script: {instanceID: 11566}
     - Class: 114
-      Script: {instanceID: 11586}
+      Script: {instanceID: 11612}
     - Class: 114
-      Script: {instanceID: 11766}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 12080}
+      Script: {instanceID: 12106}
     - Class: 114
-      Script: {instanceID: 12124}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12632}
+      Script: {instanceID: 12660}
     - Class: 114
-      Script: {instanceID: 12940}
+      Script: {instanceID: 12968}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 12986}
     - Class: 114
-      Script: {instanceID: 13278}
+      Script: {instanceID: 13306}
     - Class: 114
-      Script: {instanceID: 13478}
+      Script: {instanceID: 13506}
     - Class: 114
-      Script: {instanceID: 13672}
+      Script: {instanceID: 13700}
     - Class: 114
-      Script: {instanceID: 13748}
+      Script: {instanceID: 13776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -395,6 +395,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ParaquedasControlller
+  - hash:
+      serializedVersion: 2
+      Hash: 2d882f770ad50ad817918de25724d670
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameController
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
@@ -629,14 +635,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 2d882f770ad50ad817918de25724d670
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameController
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Gameplay.unity
-  playerPath: D:/Mac/Documents/GitHub/Foguete3D/Build/Desafio_Foguete.exe
+  playerPath: D:/Mac/Documents/GitHub/DesafioFoguete_Oniria/Build_DesafioFoguete/Desafio_Foguete.exe
